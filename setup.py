@@ -2,7 +2,7 @@ import os
 import shutil
 
 os.system("pip install prompt-toolkit")
-source = "okterminal.py"
+source = "src/okterminal.py"
 destination = os.path.expanduser("~") 
 shutil.move(source, destination)
 def add_line_to_shell_file(file_path, line_to_add):
